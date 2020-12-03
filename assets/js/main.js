@@ -54,8 +54,8 @@ $(function (){
       "età" : age
     }
   )
-  
-  classeBoolean.push({student});
+
+  classeBoolean.push(student);
   
 
   for (var key in classeBoolean) {
