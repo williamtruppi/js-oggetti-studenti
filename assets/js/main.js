@@ -56,10 +56,18 @@ $(function (){
   )
 
   classeBoolean.push(student);
-  
 
   for (var key in classeBoolean) {
     console.log(classeBoolean[key]);
+  }
+
+  for (i = 0; i < classeBoolean.length; i++){
+    document.getElementById("student_list").innerHTML += 
+    "<li> " +
+    "Nome: " + classeBoolean[i].nome + "<br>" + 
+    "Cognome: " + classeBoolean[i].Cognome + "<br>" +
+    "Età " + classeBoolean[i].età + "<br><br>" +
+    "</li>";
   }
 
 })
