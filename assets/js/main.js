@@ -16,4 +16,27 @@ $(function (){
     console.log(key, student[key]);
   }
 
+  var classeBoolean =
+  [
+    {
+      'nome' : 'Paolo',
+      'Cognome' : "Bitta",
+      "età" : 32
+    },
+    {
+      'nome' : 'Silvano',
+      'Cognome' : "Rogi",
+      "età" : 29
+    },
+    {
+      'nome' : 'Augusto',
+      'Cognome' : "De Marinis",
+      "età" : 55
+    },
+  ];
+
+  for (var key in classeBoolean) {
+    console.log(classeBoolean[key].nome, classeBoolean[key].Cognome);
+  }
+
 })
